@@ -1,7 +1,8 @@
-baseURL = "https://jimmyaldape.com/"
+baseURL = "https://jimmyaldape.github.io/"
 languageCode = "en-us"
 title = "Jimmy Aldape | Software Engineer"
 theme = "hugo-freelancer-theme"
+publishDir = "../jimmyaldape.github.io"
 
 [params]
 

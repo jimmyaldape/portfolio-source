@@ -32,8 +32,8 @@ theme = "hugo-freelancer-theme"
 
     [params.header]
         # Copy your own image into './static/img/'' if you wish
-        profile = "profile2.png"
-        image = "ja_logo_letter_blank_pencil_white.png"
+        profile = "ja_logo_letter_blank_white.png"
+        image = "ja_logo_letter_blank_white.png"
         background = "greenspot.jpg"
         name = "Jimmy Aldape"
         subtitle = "Full Stack Software Engineer"

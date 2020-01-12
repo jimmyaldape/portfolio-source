@@ -1,14 +1,13 @@
-baseURL = "https://jimmyaldape.github.io/"
+baseURL = "https://jimmyaldape.com/"
 languageCode = "en-us"
-title = "Jimmy Aldape | Software Engineer"
+title = "Jimmy Aldape | Full-Stack Software Engineer"
 theme = "hugo-freelancer-theme"
-publishDir = "../jimmyaldape.github.io"
 
 [params]
 
     name = "Jimmy Aldape"
     description = "Jimmy Aldape is a full-stack software engineer based in Riverside, CA who specializes in developing high-quality websites and applications"
-    keywords = "Jimmy Aldape, Jimmy, Aldape, jimmyaldape, software engineer, front-end engineer, full-stack developer, web developer, javascript, laravel, tailwindcss, california"
+    keywords = "Jimmy Aldape, Jimmy, Aldape, jimmyaldape, software engineer, full-stack software engineer, front-end engineer, back-end engineer, full-stack developer, web developer, application developer, javascript, laravel, tailwindcss, california"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -37,7 +36,7 @@ publishDir = "../jimmyaldape.github.io"
         image = "ja_logo_letter_blank_white.png"
         background = "greenspot.jpg"
         name = "Jimmy Aldape"
-        subtitle = "Full Stack Software Engineer"
+        subtitle = "Full-Stack Software Engineer"
 
 
     [params.portfolio]
@@ -53,12 +52,52 @@ publishDir = "../jimmyaldape.github.io"
             category = "Category"
             buttontext = "Close"
 
+    [params.skills]
+
+        title = "Skills"
+        description = "Here is a short list of languages, frameworks, and tools I use on a daily basis and have learned over the years"
+
+        [[params.skills.items]]
+            name = "Laravel"
+
+        [[params.skills.items]]
+            name = "PHP"
+
+        [[params.skills.items]]
+            name = "Javascript"
+    
+        [[params.skills.items]]
+            name = "TypeScript"
+
+        [[params.skills.items]]
+            name = "C#"
+
+        [[params.skills.items]]
+            name = "Python"
+
+        [[params.skills.items]]
+            name = "Vue.js"
+
+        [[params.skills.items]]
+            name = "Node"
+
+        [[params.skills.items]]
+            name = "Hugo"
+
+        [[params.skills.items]]
+            name = "Netlify"
+
+        [[params.skills.items]]
+            name = "Webpack"
+
+        [[params.skills.items]]
+            name = "Flutter"
 
     [params.about]
         title = "About"
         # The about text is splitted into a left and right column
-        left = "Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization."
-        right = "Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!"
+        left = "I'm a full-stack software engineer based in Riverside, CA who enjoys developing high-quality websites and applications. I specialize in both front-end and back-end technologies."
+        right = "Currently, I've been working with Laravel, Vue.js, Tailwind CSS, and experimenting with Flutter. I sometimes obsess over design but most of all I love when ideas are brought to life."
 
         [params.about.button]
             text = "Resume"
@@ -91,7 +130,7 @@ publishDir = "../jimmyaldape.github.io"
 
 
     [params.footer]
-        copyright = "Published under the Apache License 2.0. Powered by [Hugo](//gohugo.io)."
+        copyright = "&copy; 2020 Jimmy Aldape. All rights reserved. Powered by [Netlify](https://www.netlify.com/) and [Hugo](https://gohugo.io). Theme modified and based on [Freelancer](https://github.com/digitalcraftsman/hugo-freelancer-theme)."
 
 
         [params.footer.social]

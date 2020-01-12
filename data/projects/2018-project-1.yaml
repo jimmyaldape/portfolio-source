@@ -1,0 +1,8 @@
+modalID: 1
+title: Docuvoter
+date: 2018
+img: docuvoter_project_showcase.png
+client: UCR School of Medicine
+clientLink: "#"
+category: Application Development
+description: Docuvoter is a web application that lets users vote on promotions and assignments. Originally designed as a prrof of concept with figma and prototyped with javascript, html5, [tailwindcss](https://tailwindcss.com/) and deployed with [hugo](https://gohugo.io/). Once approved, it was built with [Laravel](https://laravel.com/) on the back-end, [Vue.js](https://vuejs.org) on the front end, and MySql as the database.  Features include voting ability.  Real-time messaging, and auto mailing capabilities.

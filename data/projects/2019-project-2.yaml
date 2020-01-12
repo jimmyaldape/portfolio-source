@@ -1,0 +1,8 @@
+modalID: 2
+title: Datum
+date: 2019
+img: datum_project_showcase.png
+client: UCR School of Medicine
+clientLink: "#"
+category: Web Development
+description: Datum is an internal portal for consuming data warehouse data.  Built with [Laravel](https://laravel.com) on the back-end and [Vue.js](https://vuejs.org) on the front-end. Features include a Restful api based on OpenAPI 3.0 specification.

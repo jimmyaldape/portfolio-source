@@ -2,6 +2,7 @@ baseURL = "https://jimmyaldape.com/"
 languageCode = "en-us"
 title = "Jimmy Aldape | Full-Stack Software Engineer"
 theme = "hugo-freelancer-theme"
+googleAnalytics = "UA-80604328-7"
 
 [params]
 

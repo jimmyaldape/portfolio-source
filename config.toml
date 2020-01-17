@@ -96,9 +96,10 @@ googleAnalytics = "UA-80604328-7"
 
     [params.about]
         title = "About"
-        # The about text is splitted into a left and right column
-        left = "I'm a full-stack software engineer based in Riverside, CA who enjoys developing high-quality websites and applications. I specialize in both front-end and back-end technologies."
-        right = "Currently, I've been working with Laravel, Vue.js, Tailwind CSS, and experimenting with Flutter. I sometimes obsess over design but most of all I love when ideas are brought to life."
+        
+        [params.about.center]
+            top = "I'm a full-stack software engineer based in Riverside, CA who enjoys developing high-quality websites and applications. I specialize in both front-end and back-end technologies."
+            bottom = "Currently, I've been working with Laravel, Vue.js, Tailwind CSS, and experimenting with Flutter. I sometimes obsess over design but most of all I love when ideas are brought to life."
 
         [params.about.button]
             text = "Resume"

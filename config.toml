@@ -59,25 +59,28 @@ googleAnalytics = "UA-80604328-7"
         description = "Here is a short list of languages, frameworks, and tools I use on a daily basis and have learned over the years"
 
         [[params.skills.items]]
-            name = "Laravel"
-
-        [[params.skills.items]]
             name = "PHP"
-
-        [[params.skills.items]]
-            name = "Javascript"
-    
-        [[params.skills.items]]
-            name = "TypeScript"
 
         [[params.skills.items]]
             name = "C#"
 
         [[params.skills.items]]
-            name = "Python"
+            name = "Javascript"
+
+        [[params.skills.items]]
+        name = "TypeScript"
+    
+        [[params.skills.items]]
+            name = "Laravel"
 
         [[params.skills.items]]
             name = "Vue.js"
+
+        [[params.skills.items]]
+            name = "TailwindCSS"
+
+        [[params.skills.items]]
+            name = "React.js"
 
         [[params.skills.items]]
             name = "Node"
@@ -90,6 +93,9 @@ googleAnalytics = "UA-80604328-7"
 
         [[params.skills.items]]
             name = "Webpack"
+
+        [[params.skills.items]]
+            name = "Gulp"
 
         [[params.skills.items]]
             name = "Flutter"

@@ -1,13 +1,13 @@
 baseURL = "https://jimmyaldape.com/"
 languageCode = "en-us"
-title = "Jimmy Aldape | Full-Stack Software Engineer"
+title = "Jimmy Aldape | Full-Stack Developer"
 theme = "hugo-freelancer-theme"
 googleAnalytics = "UA-80604328-7"
 
 [params]
 
     name = "Jimmy Aldape"
-    description = "Jimmy Aldape is a full-stack software engineer based in Riverside, CA who specializes in developing high-quality websites and applications"
+    description = "Jimmy Aldape is a full-stack developer based in Riverside, CA who specializes in developing high-quality web and mobile applications"
     keywords = "Jimmy Aldape, Jimmy, Aldape, jimmyaldape, software engineer, full-stack software engineer, front-end engineer, back-end engineer, full-stack developer, web developer, application developer, javascript, laravel, tailwindcss, california"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -37,7 +37,7 @@ googleAnalytics = "UA-80604328-7"
         image = "ja_logo_letter_blank_white.png"
         background = "greenspot.jpg"
         name = "Jimmy Aldape"
-        subtitle = "Full-Stack Software Engineer"
+        subtitle = "Full-Stack Developer"
 
 
     [params.portfolio]
@@ -59,16 +59,13 @@ googleAnalytics = "UA-80604328-7"
         description = "Here is a short list of languages, frameworks, and tools I use on a daily basis and have learned over the years"
 
         [[params.skills.items]]
-            name = "PHP"
-
-        [[params.skills.items]]
             name = "C#"
 
         [[params.skills.items]]
-            name = "Javascript"
+            name = "PHP"
 
         [[params.skills.items]]
-        name = "TypeScript"
+            name = "Javascript"
     
         [[params.skills.items]]
             name = "Laravel"
@@ -84,6 +81,9 @@ googleAnalytics = "UA-80604328-7"
 
         [[params.skills.items]]
             name = "Node"
+
+        [[params.skills.items]]
+            name = "Flask"
 
         [[params.skills.items]]
             name = "Hugo"
@@ -104,12 +104,12 @@ googleAnalytics = "UA-80604328-7"
         title = "About"
         
         [params.about.center]
-            top = "I'm a full-stack software engineer based in Riverside, CA who enjoys developing high-quality websites and applications. I specialize in both front-end and back-end technologies."
-            bottom = "Currently, I've been working with Laravel, Vue.js, Tailwind CSS, and experimenting with Flutter. I sometimes obsess over design but most of all I love when ideas are brought to life."
+            top = "I'm a full-stack developer based in Riverside, CA who enjoys developing high-quality web and mobile applications, specializing in both front-end and back-end technologies."
+            bottom = "Currently, I'm working with Laravel, Vue.js, Tailwind CSS, and experimenting with Flutter. I sometimes obsess over design but most of all I love bringing ideas to life."
 
         [params.about.button]
             text = "Resume"
-            link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+            link = "/pdf/jimmy_aldape_resume_current.pdf"
             icon = "resume"
 
 

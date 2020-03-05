@@ -110,7 +110,7 @@ googleAnalytics = "UA-80604328-7"
         [params.about.button]
             text = "Resume"
             link = "/pdf/jimmy_aldape_resume_current.pdf"
-            icon = "file"
+            icon = ""
 
 
     [params.contact]

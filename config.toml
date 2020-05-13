@@ -7,8 +7,8 @@ googleAnalytics = "UA-80604328-7"
 [params]
 
     name = "Jimmy Aldape"
-    description = "Jimmy Aldape is a full-stack developer based in Riverside, CA who specializes in developing high-quality web and mobile applications"
-    keywords = "Jimmy Aldape, Jimmy, Aldape, jimmyaldape, software engineer, full-stack software engineer, front-end engineer, back-end engineer, full-stack developer, web developer, application developer, javascript, laravel, tailwindcss, california"
+    description = "Jimmy Aldape is a full-stack developer based in Riverside, CA who has a passion for solving problems and making things for the web"
+    keywords = "Jimmy Aldape, Jimmy, Aldape, jimmyaldape, software engineer, full-stack software engineer, full stack software engineer, front-end engineer, back-end engineer, full-stack developer, full stack developer, web developer, application developer, javascript, laravel, tailwindcss, california"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -18,7 +18,7 @@ googleAnalytics = "UA-80604328-7"
     #
     # - set your email address under 'email' below
     # - upload the generated site to your server
-    # - send a dummy email youself to confirm your account
+    # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
     email = "me@jimmyaldape.com"
@@ -35,7 +35,7 @@ googleAnalytics = "UA-80604328-7"
         # Copy your own image into './static/img/'' if you wish
         profile = "ja_logo_letter_blank_white.png"
         image = "ja_logo_letter_blank_white.png"
-        background = "greenspot.jpg"
+        background = ""
         name = "Jimmy Aldape"
         subtitle = "Full-Stack Developer"
 
@@ -44,7 +44,7 @@ googleAnalytics = "UA-80604328-7"
         # All projects defined in their own files. You can find example projects
         # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
         # at the root of this Hugo site.
-        # For more informtion take a look at the README.
+        # For more information take a look at the README.
         title = "Portfolio"
 
         [params.portfolio.modal]
@@ -56,34 +56,31 @@ googleAnalytics = "UA-80604328-7"
     [params.skills]
 
         title = "Skills"
-        description = "Here is a short list of languages, frameworks, and tools I use on a daily basis and have learned over the years"
-
-        [[params.skills.items]]
-            name = "C#"
+        description = ""
 
         [[params.skills.items]]
             name = "PHP"
 
         [[params.skills.items]]
+            name = "C#"
+
+        [[params.skills.items]]
             name = "Javascript"
-    
+
         [[params.skills.items]]
             name = "Laravel"
 
         [[params.skills.items]]
-            name = "Vue.js"
+            name = "Vue"
 
         [[params.skills.items]]
-            name = "TailwindCSS"
+            name = "Tailwind CSS"
 
         [[params.skills.items]]
-            name = "React.js"
+            name = "React"
 
         [[params.skills.items]]
             name = "Node"
-
-        [[params.skills.items]]
-            name = "Flask"
 
         [[params.skills.items]]
             name = "Hugo"
@@ -95,17 +92,14 @@ googleAnalytics = "UA-80604328-7"
             name = "Webpack"
 
         [[params.skills.items]]
-            name = "Gulp"
-
-        [[params.skills.items]]
-            name = "Flutter"
+            name = "SQL"
 
     [params.about]
         title = "About"
-        
+
         [params.about.center]
-            top = "I'm a full-stack developer based in Riverside, CA who enjoys developing high-quality web and mobile applications, specializing in both front-end and back-end technologies."
-            bottom = "Currently, I'm working with Laravel, Vue.js, Tailwind CSS, and experimenting with Flutter. I sometimes obsess over design but most of all I love bringing ideas to life."
+            top = "I'm a full-stack developer based in Riverside, CA who has a passion for solving problems and making things for the web. I love bringing ideas to life."
+            bottom = "I love working with [Laravel](https://laravel.com/) and [Tailwind CSS](https://tailwindcss.com/)"
 
         [params.about.button]
             text = "Resume"
@@ -138,8 +132,7 @@ googleAnalytics = "UA-80604328-7"
 
 
     [params.footer]
-        copyright = "&copy; 2020 Jimmy Aldape. All rights reserved. Powered by [Netlify](https://www.netlify.com/) and [Hugo](https://gohugo.io). Theme modified and based on [Freelancer](https://github.com/digitalcraftsman/hugo-freelancer-theme)."
-
+        copyright = "Built with [Netlify](https://www.netlify.com/), [Hugo](https://gohugo.io) and the [Freelancer](https://github.com/digitalcraftsman/hugo-freelancer-theme) theme"
 
         [params.footer.social]
             #title = "Around the web"
@@ -152,7 +145,7 @@ googleAnalytics = "UA-80604328-7"
 
             [[params.footer.social.networks]]
             icon = "fa-linkedin"
-            link = "//www.linkedin.com/in/jimmy-aldape-699356172/"
+            link = "//www.linkedin.com/in/jimmyaldape"
 
             [[params.footer.social.networks]]
             icon = "fa-twitter"

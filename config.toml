@@ -1,4 +1,4 @@
-baseURL = "https://jimmyaldape.com/"
+baseURL = "https://jimmyaldape.dev/"
 languageCode = "en-us"
 title = "Jimmy Aldape | Full-Stack Developer"
 theme = "hugo-freelancer-theme"
@@ -21,7 +21,7 @@ googleAnalytics = "UA-80604328-7"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-    email = "me@jimmyaldape.com"
+    email = "jimmy@jimmyaldape.com"
 
     # Custom assets
     custom_css = []
